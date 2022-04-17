@@ -48,7 +48,7 @@ public class Quiz2 {
 
    public static int findGreatest(int[] n1, int[] n2) {
        //loop to check the greatest value in first array then making that value the greatest and after checking next array based off the greatest value off of array1
-       //if condtion is true then number of array is returned
+       //if condtion is true, number of array is returned
        int arrayNumber;
        for (int x: n1)
            if(x>greaterValue)
