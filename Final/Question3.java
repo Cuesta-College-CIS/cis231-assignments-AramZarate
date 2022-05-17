@@ -8,7 +8,7 @@ public class Question3 {
      
     
     ArrayList<Student> slist = new ArrayList<Student>();
-    
+    //add students info
     ArrayList<Course> course_1 = new ArrayList<>();
     course_1.add(new Course("CIS01", "C++", 90));
     course_1.add(new Course("CIS02", "Python", 80));
