@@ -2,8 +2,10 @@ import java.util.Scanner;
 public class subgreatestsum {
    public static void main(String[] args) {
        Scanner scnr = new Scanner(System.in);
+      //takes user input for size of array
      int n = scnr.nextInt();
        int[] array = new int[n];
+      //creates array with random numbers
        for (int i = 0; i < array.length; i++) {
            array[i] = (int) (Math.random() * 100);
        }
@@ -16,6 +18,7 @@ public class subgreatestsum {
    private static int[] findMaxSum(int[] array) {
        int maxSum = 0;
        int[] maxArray =  new int[0];
+      //loop to find 3 consecutive  numbers with the greatest sum
        for (int i = 0; i < array.length - 2; i++) {
            int sum = array[i] + array[i + 1] + array[i + 2];
            if (sum > maxSum) {
