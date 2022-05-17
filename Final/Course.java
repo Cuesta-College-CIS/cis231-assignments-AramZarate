@@ -12,6 +12,7 @@ public class Course implements CourseActivity {
         decideGrade();
     }
 
+    //decide what grade
     @Override
     public void decideGrade() {
         if(score >= 80){
