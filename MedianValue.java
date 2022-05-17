@@ -11,6 +11,7 @@ public class MedianValue {
      // return the array
      return array;
     }
+    //median value
     public static int medianValue(int[] array) {
      int medianValue = 0;
      int size = array.length;
@@ -27,10 +28,11 @@ public class MedianValue {
       System.out.print(array[i] + " ");
      }
     }
+    
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
      int n = scnr.nextInt();
-     
+     //takes positive user input to create array
      if (n > 0) {
       int[] array = createArray(n);
       System.out.print("Array: ");
